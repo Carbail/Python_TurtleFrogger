@@ -36,7 +36,7 @@ class Coches:
         
     def mover_coches(self):
         for coche in self.todos_coches:
-            coche.backward(5+random.randint(0,3)*self.nivel) 
+            coche.backward(5+1*self.nivel) 
     
     def level_up(self):
         self.nivel +=1

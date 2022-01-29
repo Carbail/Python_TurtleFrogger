@@ -11,7 +11,7 @@ class Pj(Turtle):
         self.setheading(90)
     
     def sube(self):
-        self.forward(100)
+        self.forward(10)
     
     def completo(self):
         if self.ycor() >= 280:

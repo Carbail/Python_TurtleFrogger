@@ -18,5 +18,9 @@ class Marcador(Turtle):
 
     def subenivel(self):
         self.nivel+=1
+    
+    def game_over(self):
+        self.goto(0,0)
+        self.write(f"GAME OVER", align="center", font=FONT)
 
 
